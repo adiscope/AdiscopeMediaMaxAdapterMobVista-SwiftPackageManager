@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
+        "version" : "13.1.0"
+      }
+    },
+    {
+      "identity" : "mintegraladsdk-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
+      "state" : {
+        "revision" : "ac4b4f39db1d926a1730dfca42fe38082e11b6e6",
+        "version" : "7.7.7"
+      }
+    }
+  ],
+  "version" : 2
+}
