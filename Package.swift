@@ -13,8 +13,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
-        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.0.4"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.2"),
+        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.1.3"),
     ],
     targets: [
         .target(
@@ -29,13 +29,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMobVista",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterMobVista.zip",
-            checksum: "a6f3a6b71146a37cc9408557d66a41580559e5437b0e872ab22dec376bb5e98d"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/AdiscopeMediaMaxAdapterMobVista.zip",
+            checksum: "90c5fd22053c6bb3ea0ad3d0d2262b4fef9ee76ea0e4e2ecf375fca5c707014c"
         ),
         .binaryTarget(
             name: "AppLovinMediationMintegralAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AppLovinMediationMintegralAdapter.xcframework.zip",
-            checksum: "ded2eb8b4478ee3016fceae7254bb7fc043f203d563f6e215cf8feaf803a37d3"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/AppLovinMediationMintegralAdapter.xcframework.zip",
+            checksum: "0b9ed537a2e686799e67afcf19a48b703f8d27c92c30af1c93d70c523fd2f0d7"
         ),
     ]
 )
